@@ -11,12 +11,12 @@ Express é uma biblioteca maravilhosa que te permite criar um servidor com node
 
 instalando com o 'npm install express' e atribuindo em um projeto:
 
-> const express = require('express')
-> const app = express()
+> const express = require('express');
+> const app = express();
 > 
 > app.get("/", function(req, res){
 >   res.sendFile(__dirname + "/index.html")  
-> })
+> });
 > 
 > app.listen(3000, function(){
 >     console.log("Server is running on Port 3000")
